@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WD Lesson 6.7 Demonstration</title>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <!-- LeafletJS JS file (must place after Leaflet's CSS file) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="helper.js"></script>
+    <script src="scr.js"></script>
+   </head>
+  <body onload="init()">
+
+  <div id="banner" class="container center">
+    <div style="text-align:center">
+      <h1>NYC Open Data</h1>
+      <h2>Data from the NYC Housing Reports</h2>
+    </div>
+  </div>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="map.html">Maps</a></li>
+    <li><a href="Charts.html">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+  <div class="container subbanner">
+    <div>
+      <p>
+        This example demonstrates displaying maps for locations of complaints
+        made through NYC Open Data using Leaflet.js.
+      </p>
+    </div>
+  </div>
+
+  <div id="output" class="container">
+    <div id="cards_output" class="container"></div>
+    <div id="map"></div>
+  </div>
+
+  <div id="footer" class="container center">
+    <h3>Lesson 7.4 Demonstration</h3>
+  </div>
+
+</body>
+</html>

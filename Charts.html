@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WD Lesson 7.6 Demonstration</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="c3-eb4b9be8.css" rel="stylesheet" type="text/css" />
+    <script src="d3-5.8.2.min-c5268e33.js"></script>
+    <script src="c3.min-d2a1f852.js"></script>
+    <script src="helpe.js"></script>
+    <script src="sc.js"></script>
+   </head>
+  <body onload="init()">
+   <div id="banner" class="container center">
+      <div style="text-align:center">
+          <h1>NYC Open Data</h1>
+          <h2>Data from the NYC Housing Reports</h2>
+      </div>
+    </div>
+    
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="map.html">Maps</a></li>
+  <li><a href="Charts.html">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+    <div id="banner" class="container center">
+      <div style="text-align:center">
+          
+      </div>
+    </div>
+    <div class="container subbanner">
+      <div>
+        <p>This example demonstrates how to aggregate information in order to display the results in chart.  In order to aggregate the information we must traverse the data and keep tallies on each piece of information.  Charts created use information associated 311 Complaint Services data from <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a></p>
+       </div>
+    </div>
+    <div class="container">
+      <p><span class="highlight">Scenario:</span>Chart analyzes the number of complaints by boroughs.</p>
+      <select id="chartType" style="width:200px;">
+        <option>Select Chart Type</option>
+        <option value="bar">Bar</option>
+        <option value="pie">Pie</option>
+        <option value="donut">Donut</option>
+      </select>
+      <a class="button" onclick="ByBorough()"> Display </a>
+    </div>
+    <div class="container subbanner"><br></div>
+    <div id="output"></div>
+    
+    <div id="footer" class="container center">
+      <h3>Lesson 7.6 Demonstration</h3>
+    </div>  
+  </body>
+</html>
