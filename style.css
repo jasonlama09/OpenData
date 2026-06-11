@@ -1,6 +1,7 @@
 html,body{
   margin:0 auto;
   font-family:Arial;
+  background-color: rgb(228, 228, 228);
 }
 .container{
   display:flex;
@@ -12,7 +13,7 @@ html,body{
 }
 
 nav{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 nav a{
   color:black;
@@ -25,14 +26,14 @@ nav a:hover{
   color:white;
 }
 .subbanner{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 #banner{
-  background-color:white;
+  background-color:rgb(228, 228, 228);
   color:black;
 }
 #footer{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
   color:white;
   /*position:fixed;*/
   left: 0;
@@ -66,7 +67,7 @@ nav a:hover{
   box-shadow:2px 2px 2px black;
 }
 .button:hover{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 #leftPanel{
   flex:1;
@@ -120,7 +121,7 @@ ul li a:hover {
 }
 
 nav{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 nav a{
   color:black;
@@ -133,14 +134,14 @@ nav a:hover{
   color:white;
 }
 .subbanner{
-  background-color:rgb(200,225,255);
+  background-color:rgb(228, 228, 228);
 }
 #banner{
   background-color:white;
   color:black;
 }
 #footer{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
   color:white;
  
   left: 0;
@@ -186,7 +187,7 @@ nav a:hover{
   cursor: pointer;
 }
 .button:hover{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 
 .fitted{
@@ -197,3 +198,11 @@ nav a:hover{
   box-shadow:2px 2px 2px gray;
 }
 
+.mapreport h1{
+  text-align: center;
+}
+
+.mapreport h5{
+  text-align: center;
+  
+}

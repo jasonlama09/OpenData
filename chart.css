@@ -12,7 +12,7 @@ html,body{
 }
 
 nav{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 nav a{
   color:black;
@@ -25,14 +25,14 @@ nav a:hover{
   color:white;
 }
 .subbanner{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
 }
 #banner{
   background-color:blue;
   color:white;
 }
 #footer{
-  background-color:cornflowerblue;
+  background-color:rgb(228, 228, 228);
   color:white;
   /*position:fixed;*/
   left: 0;
@@ -60,7 +60,7 @@ nav a:hover{
 .button{
   text-decoration:none;
   background-color:blue;
-  color:white;
+  color:rgb(228, 228, 228);
   border-radius:4px;
   padding:6px;
   box-shadow:2px 2px 2px black;
