@@ -6,6 +6,7 @@ html,body{
 .container{
   display:flex;
   padding:10px;
+  background-color: rgb(228, 228, 228);
 }
 .center{
   justify-content:center;
